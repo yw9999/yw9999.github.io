@@ -10,4 +10,36 @@ body {
     .subheading {
         font-family: 'Noto Sans TC', sans-serif;
         text-transform: none;
-    }  
+    }
+
+    .expedu_icon {
+        color: #495057;
+    }
+    .expedu_icon:hover {
+        background-color: #495057;
+        color: #fff;
+    }
+
+    :root {
+        --bs-primary: #ff9900;
+        --bs-primary-rgb: rgb(255, 153, 0);
+        --bs-secondary: #2f989c;
+        --bs-secondary-rgb: rgb(47, 152, 156);
+    }
+
+    .expedu_icon:hover {
+        color: var(--bs-secondary);
+    }
+
+    a {
+        color: var(--bs-primary);
+
+    }
+
+    .social-icons .social-icon:hover{
+        background-color: var(--bs-secondary);
+    }
+
+    .bg-primary {
+        background-color: var(--bs-secondary)!important;
+    }
