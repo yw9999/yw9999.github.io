@@ -20,6 +20,10 @@ body {
         color: #fff;
     }
 
+    .haha_icon {
+        color:#495057;
+    }
+
     :root {
         --bs-primary: #ff9900;
         --bs-primary-rgb: rgb(255, 153, 0);
